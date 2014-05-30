@@ -42,31 +42,41 @@ if UserRace == 'elf' and UserClass == 'theif':
 
 if UserRace == 'elf':
     print ("""Congradulations! You are an elf""", UserClass,"""! Now I can tell you
-your powers, which are decided by your class and race.""")
-
+your powers, which are decided by your class and race. Press the spacebar to continue.""")
+input()
+ 
 if UserRace == 'troll' or 'human' or 'dwarf':
     print ("""Congradulations! You are a""",UserRace, UserClass,"""! Now I can tell
-you your powers, which are decided by your class and race.""")
+you your powers, which are decided by your class and race. Press the spacebar to
+continue.""")
+    input()
 
 if UserRace == 'elf':
     print ("""Since you are an elf, you get certain boosts. If you are carrying a bow,
 you have a better chance of hitting your opponent. You also have a better chance of
-getting away or hiding from and enemy that is too powerful for you to beat."""
-
+getting away or hiding from and enemy that is too powerful for you to beat. Press the
+spacebar to continue."""
+    input()
+           
 if UserRace == 'troll':
     print ("""Since you are a troll, you get certain boosts. If you are fighting a
 monster where no ranged weapons are used, you have a better chance of winning since you
-have a strengh bounus. You also have extra HP because of your toughness.""")
+have a strengh bounus. You also have extra HP because of your toughness. Press the
+spacebar to continue.""")
+    input()
 
 if UserRace == 'dwarf':
     print ("""Since you are a dwarf, when you are using an ax or a club you deal 2X as
 much damage as if you were a different race. Also, you have the ability to mine in caves
-in search for gold or diamond.""")
-
+in search for gold or diamond. Press the spacebar to continue.""")
+    input()
+           
 if UserRace == 'human':
     print ("""Since you chose human as your race, you have the ability to out-wit your
 enemy. Also, you can presuade people and even monsters to do what you want them to \(for
-instance, you could convince a king to let you and your friends stay in his castle.""")
+instance, you could convince a king to let you and your friends stay in his castle.Press
+the spacebar to continue""")
+    input()
 
 if UserClass == 'thief':
     print ("""The classs you have chosen gives you two advantages. Being a theif, you 
@@ -79,7 +89,7 @@ you can heal your ally and other people you might encounter on your journey. Als
 you have ten extra magic points.""")
 
 if UserClass == 'warrior'
-    print ("""
+    print ("""The class you have selected gives you certain 
 
 
            
